@@ -643,7 +643,7 @@ def create_radar_chart(results):
             name=algo_name,
             line=dict(color=color, width=2),
             fill='toself',
-            fillcolor=color.replace(')', ',0.1)').replace('rgb', 'rgba') if 'rgb' in color else f'{color}1a',
+            fillcolor=f'rgba({int(color[1:3],16)},{int(color[3:5],16)},{int(color[5:7],16)},0.1)',
             opacity=0.8
         ))
 
