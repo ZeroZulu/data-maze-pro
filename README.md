@@ -6,7 +6,7 @@
 
 > **An interactive pathfinding game and analytics platform that compares 5 algorithms in real-time. Built for data science portfolios to demonstrate algorithmic thinking, data visualization, and performance analysis.**
 
-![Data Maze Pro Screenshot](screenshot.png)
+![Data Maze Pro Screenshot](assets/Screensho.png)
 
 ---
 
